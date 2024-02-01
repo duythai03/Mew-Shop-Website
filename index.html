@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mew Shop</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/img/cat-icon-32.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <!--Header: Navigation-->
+      <div id="header">
+        <ul id="nav">
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#mewshop">Giới thiệu</a></li>
+          <li><a href="#buycat">Giống mèo</a></li>
+          <li><a href="#contact">Liên hệ</a></li>
+          <li>
+            <a href="#">Dịch vụ <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="subnav">
+              <li><a href="#">Cắt tỉa lông</a></li>
+              <li><a href="#">Tắm cho mèo</a></li>
+              <li><a href="#">Trông giữ mèo</a></li>
+            </ul>
+          </li>
+        </ul>
+        <!--Search Button-->
+        <div class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <!--Mobile Menu-->
+        <div id="mobile-menu" class="mobile-menu">
+          <i class="fa-solid fa-bars menu-icon"></i>
+        </div>
+      </div>
+
+      <!--Slider-->
+      <div id="slider">
+        <div class="text-content">
+          <h2 class="text-header">Mew Mew</h2>
+          <div class="text-description">
+            Chúng tớ đang chờ các Sen đón về đó!
+          </div>
+        </div>
+      </div>
+
+      <!--Content-->
+      <div id="content">
+        <!--About-->
+        <div id="mewshop" class="content-section">
+          <h2 class="section-header">MEW SHOP</h2>
+          <p class="section-sub-header">Chọn Mèo? Ghé Mew Shop!!</p>
+          <p class="about">
+            Chào mừng bạn đến với Mew Shop - nơi tận hưởng niềm đam mê mèo! Tại
+            đây, bọn mình không chỉ là cửa hàng bán mèo, mà còn là ngôi nhà của
+            những khoảnh khắc đáng yêu và hạnh phúc. Hãy xem qua các khu vực của
+            bọn mình, bạn sẽ tìm thấy được những chú mèo dễ thương và những thứ
+            độc đáo cho các em. Đội ngũ nhân viên nhiệt huyết của bọn mình luôn
+            sẵn sàng để chia sẻ kinh nghiệm và hỗ trợ bạn chọn lựa những điều
+            tốt nhất cho bạn và "bạn nhỏ" của mình. Ghé thăm Mew Shop ngay hôm
+            nay và bắt đầu hành trình yêu mèo của bạn!
+          </p>
+
+          <div class="service">
+            <div class="service-item">
+              <p class="service-name">Mua mèo</p>
+              <img
+                src="./assets/img/service1.jpg"
+                alt="s1"
+                class="service-img"
+              />
+            </div>
+            <div class="service-item">
+              <p class="service-name">Giao lưu</p>
+              <img
+                src="./assets/img/service2.jpg"
+                alt="s1"
+                class="service-img"
+              />
+            </div>
+            <div class="service-item">
+              <p class="service-name">Chăm sóc</p>
+              <img
+                src="./assets/img/service3.jpg"
+                alt="s1"
+                class="service-img"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!--Buy Cat-->
+        <div id="buycat" class="cat-section">
+          <div class="content-section">
+            <h2 class="section-header text-white">GIỐNG MÈO</h2>
+            <p class="section-sub-header text-white">
+              Những giống mèo được yêu thích nhất:
+            </p>
+
+            <!--Top Favorite Cats-->
+            <ul class="top-cat">
+              <li>Munchkin <span class="sold-out">Sold out</span></li>
+              <li>Scottish Fold <span class="sold-out">Sold out</span></li>
+              <li>Anh lông ngắn <span class="quantity">3</span></li>
+            </ul>
+
+            <!--Cats-->
+            <div class="cat-list">
+              <div class="cat-item">
+                <img
+                  src="./assets/img/munchkin.jpg"
+                  alt="munchkin"
+                  class="cat-img"
+                />
+                <div class="cat-content">
+                  <h3 class="cat-header">Munchkin</h3>
+                  <p class="cat-quantity">Sold out</p>
+                  <p class="cat-description">
+                    Munchkin cũng là giống mèo được nuôi nhiều nhất Việt Nam.
+                    Loài mèo nấm lùn huyền bí này có nguồn gốc từ Mỹ và được gọi
+                    theo cách đáng yêu là mèo xúc xích hay mèo Corgi
+                  </p>
+                  <div class="soldout-btn">Sold out</div>
+                </div>
+              </div>
+
+              <div class="cat-item">
+                <img
+                  src="./assets/img/scottishfold.jpeg"
+                  alt="scottishfold"
+                  class="cat-img"
+                />
+                <div class="cat-content">
+                  <h3 class="cat-header">Scottish Fold</h3>
+                  <p class="cat-quantity">Sold out</p>
+                  <p class="cat-description">
+                    Giống mèo tai cụp đáng yêu này có nguồn gốc từ Scotland. Cả
+                    vẻ bề ngoài lẫn tính cách bên trong của Scottish Fold đều
+                    rất dễ thương nên được nhiều người yêu mến
+                  </p>
+                  <div class="soldout-btn">Sold out</div>
+                </div>
+              </div>
+
+              <div class="cat-item">
+                <img
+                  src="./assets/img/anh-long-ngan.jpeg"
+                  alt="anh-long-ngan"
+                  class="cat-img"
+                />
+                <div class="cat-content">
+                  <h3 class="cat-header">Anh lông ngắn</h3>
+                  <p class="cat-quantity">Còn: 3</p>
+                  <p class="cat-description">
+                    Chú mèo đáng yêu sở hữu tính cách khá hiền hòa, trầm tính,
+                    thích chơi một mình và không ưa leo trèo, nhảy nhót
+                  </p>
+                  <button class="buycat-btn js-buy-cat">8.3M VND</button>
+                </div>
+              </div>
+
+              <div class="cat-item">
+                <img
+                  src="./assets/img/anh-long-dai.jpg"
+                  alt="anh-long-dai"
+                  class="cat-img"
+                />
+                <div class="cat-content">
+                  <h3 class="cat-header">Anh lông dài</h3>
+                  <p class="cat-quantity">Còn: 10</p>
+                  <p class="cat-description">
+                    Mèo Anh lông dài là một loài mèo đáng yêu và rất dễ nuôi,
+                    gần gũi chủ nhưng lại lười vận động nên rất dễ bị béo phì
+                    nếu không có chế độ ăn khoa học
+                  </p>
+                  <button class="buycat-btn js-buy-cat">7.5M VND</button>
+                </div>
+              </div>
+
+              <div class="cat-item">
+                <img
+                  src="./assets/img/turkish-angora.jpeg"
+                  alt="meo-turkish"
+                  class="cat-img"
+                />
+                <div class="cat-content">
+                  <h3 class="cat-header">Mèo Thổ Nhĩ Kỳ</h3>
+                  <p class="cat-quantity">Còn: 12</p>
+                  <p class="cat-description">
+                    Mèo Turkish Angora được coi là báu vật của đất nước Thổ Nhĩ
+                    Kỳ. Angora thu hút bởi ngoại hình xinh đẹp, kiêu sa và sang
+                    trọng
+                  </p>
+                  <button class="buycat-btn js-buy-cat">9.7M VND</button>
+                </div>
+              </div>
+
+              <div class="cat-item">
+                <img src="./assets/img/xiem.jpg" alt="xiem" class="cat-img" />
+                <div class="cat-content">
+                  <h3 class="cat-header">Mèo Xiêm</h3>
+                  <p class="cat-quantity">Còn: 14</p>
+                  <p class="cat-description">
+                    Mèo Xiêm có nguồn gốc từ Thái Lan. Giống mèo lông ngắn của
+                    phương Đông này rất thông minh, nhanh nhẹn và ưa bắt côn
+                    trùng
+                  </p>
+                  <button class="buycat-btn js-buy-cat">4.2M VND</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="contact" class="content-section">
+          <h2 class="section-header">LIÊN HỆ</h2>
+          <p class="section-sub-header">
+            Nếu có thắc mắc hãy nhắn tin cho mình nhé
+          </p>
+          <div class="contact">
+            <div class="infoshop">
+              <p><i class="fa-solid fa-location-dot"></i> Biên Hòa, Đồng Nai</p>
+              <p><i class="fa-solid fa-phone"></i> SDT: 0123456789</p>
+              <p>
+                <i class="fa-solid fa-envelope"></i> Email: mewshop@gmail.com
+              </p>
+            </div>
+            <div class="message">
+              <form action="">
+                <div class="message-row1">
+                  <input
+                    type="text"
+                    id="contact-name"
+                    name="contact-name"
+                    placeholder="Tên"
+                    required
+                  />
+                  <input
+                    type="text"
+                    id="contact-email"
+                    name="contact-email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div class="message-row2">
+                  <input
+                    type="text"
+                    id="contact-message"
+                    name="contact-message"
+                    placeholder=" Lời nhắn"
+                    required
+                  />
+                </div>
+                <div class="message-row3">
+                  <button class="send">GỬI</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="map" class="map-section">
+          <img src="./assets/img/map.jpg" alt="map" />
+        </div>
+      </div>
+
+      <div id="footer">
+        <div class="social-list">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-pinterest"></i></a>
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <p class="copyright">
+          Powered by
+          <a href="https://www.w3schools.com/" target="_blank">w3.css</a>
+        </p>
+      </div>
+    </div>
+
+    <!--Modal Thanh Toan-->
+    <div class="modal js-modal">
+      <div class="modal-container js-modal-container">
+        <div class="modal-close js-modal-close">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+        <header class="modal-header">
+          <i class="fa-solid fa-cat modal-icon-cat"></i>
+          THANH TOÁN
+        </header>
+
+        <div class="modal-body">
+          <form>
+            <table class="thanhtoan">
+              <tr>
+                <td>
+                  <label for="hoten">Họ và tên</label>
+                  <input type="text" id="hoten" name="hoten" required />
+                </td>
+                <td>
+                  <label for="sdt">Số điện thoại</label>
+                  <input type="number" id="sdt" name="sdt" required />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" required />
+                </td>
+                <td>
+                  <label for="soluong">Số lượng</label>
+                  <input
+                    type="number"
+                    id="soluong"
+                    name="soluong"
+                    required
+                    min="1"
+                    max="10"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <button id="modal-confirm" name="modal-confirm">
+                    XÁC NHẬN <i class="fa-solid fa-check"></i>
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        <footer class="modal-footer">
+          <p class="modal-help">Cần <a href="">hỗ trợ?</a></p>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      const buyBtns = document.querySelectorAll(".js-buy-cat");
+      const modal = document.querySelector(".js-modal");
+      const modalContainer = document.querySelector(".js-modal-container");
+      const modelClose = document.querySelector(".js-modal-close");
+
+      function showBuyCat() {
+        modal.classList.add("open");
+      }
+      for (const buyBtn of buyBtns) {
+        buyBtn.addEventListener("click", showBuyCat);
+      }
+
+      function hideBuyCat() {
+        modal.classList.remove("open");
+      }
+      modelClose.addEventListener("click", hideBuyCat);
+      modal.addEventListener("click", hideBuyCat);
+      modalContainer.addEventListener("click", function (event) {
+        event.stopPropagation();
+      });
+    </script>
+
+    <script>
+      var header = document.getElementById("header");
+      var mobileMenu = document.getElementById("mobile-menu");
+      var headerHeight = header.clientHeight;
+
+      // Đóng / mở Mobile Menu
+      mobileMenu.onclick = function () {
+        var isClose = header.clientHeight === headerHeight;
+        if (isClose) {
+          header.style.height = "auto";
+        } else {
+          header.style.height = null;
+        }
+      };
+
+      // Tự động đóng khi click 1 phần tử trong menu
+      var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+      for (var i = 0; i < menuItems.length; i++) {
+        var menuItem = menuItems[i];
+        menuItem.onclick = function (event) {
+          var isParentMenu =
+            this.nextElementSibling &&
+            this.nextElementSibling.classList.contains("subnav");
+          if (isParentMenu) {
+            event.preventDefault();
+          } else {
+            header.style.height = null;
+          }
+        };
+      }
+    </script>
+  </body>
+</html>
